@@ -1,6 +1,6 @@
 export default function Links(){
     return (
-    <div className="app">
+    <div>
     <h1>My Links</h1>
     </div>
   )
