@@ -1,4 +1,5 @@
 import {FiLink} from "react-icons/fi";
+import "./home.css";
 
 export default function Home(){
     return (
@@ -15,6 +16,7 @@ export default function Home(){
         <FiLink size={24} color="#FFF" />
         <input placeholder="Paste your link here ..."/>
     </div>  
+    <button> Generate Link</button>
     </div>
     </div>
   )
