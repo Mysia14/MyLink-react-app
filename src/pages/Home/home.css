@@ -31,7 +31,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: slideY 2s;
 
+}
+/*Animation going up area-input*/
+@keyframes slideY{
+    from{
+        transform: translateY(90px);
+
+    }
+    to{
+        transform: translateY(0px);
+
+
+    }
 }
 
 .area-input div{
