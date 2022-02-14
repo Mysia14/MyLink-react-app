@@ -99,9 +99,18 @@
         font-size: 30px;
     }
     .area-input{
-        width: 75%;
+        width: 35%;
+       
     }
     .logo span{
         font-size: 16px;
+    }
+    .area-input input{
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .area-input button{
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
     }
 }
