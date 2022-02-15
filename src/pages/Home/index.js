@@ -18,7 +18,7 @@ export default function Home(){
         <FiLink size={24} color="#FFF" />
         <input placeholder="Paste your link here ..."/>
     </div>  
-    <button> Generate Link</button>
+    <button> Short Link</button>
     </div>
     <Menu/>
     </div>

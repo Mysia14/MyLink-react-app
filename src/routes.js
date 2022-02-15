@@ -11,6 +11,7 @@ function RoutesApp(){
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path= "/links" element={<Links/>}/>
+            <Route path= "*" element={}
         </Routes>
         </BrowserRouter>
     )
