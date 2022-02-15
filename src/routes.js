@@ -2,6 +2,7 @@ import{BrowserRouter, Routes, Route} from "react-router-dom"
 
 import Home from "./pages/Home"
 import Links from "./pages/Links/links"
+import Error from "./pages/Error"
 
 function RoutesApp(){ 
     // configuracao das rotas
@@ -11,7 +12,7 @@ function RoutesApp(){
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path= "/links" element={<Links/>}/>
-            <Route path= "*" element={}
+            <Route path= "*" element={<Error/>}/>
         </Routes>
         </BrowserRouter>
     )
