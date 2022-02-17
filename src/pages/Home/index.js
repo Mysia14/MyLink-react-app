@@ -3,6 +3,7 @@ import {FiLink} from "react-icons/fi";
 import "./home.css";
 
 import Menu from "../../components/Menu"
+import LinkItem from "../../components/LinkItem";
 
 
 export default function Home(){
@@ -26,9 +27,10 @@ export default function Home(){
         <FiLink size={24} color="#FFF" />
         <input placeholder="Paste your link here ..." value={link} onChange={(e) => setLink(e.target.value)}/>
     </div>  
-    <button onClick={handleShortLink}> Short Link</button>
+    <button onClick={handleShortLink}> Short URL</button>
     </div>
     <Menu/>
+    <LinkItem/>
     </div>
   )
   }
