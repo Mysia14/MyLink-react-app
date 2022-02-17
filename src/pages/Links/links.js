@@ -19,7 +19,7 @@ export default function Links(){
       
         <button className="link">
              <FiLink size={18} color="#FFF"/>
-              https://mysiasantana.com
+             https://codepen.io/mysia14
            </button>
            <button className="link-delete">
              <FiTrash size={24} color="#FF5454"/>
