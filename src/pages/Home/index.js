@@ -19,7 +19,7 @@ export default function Home(){
     <div className="logo">
       <img src="./assets/Logo.png" alt=" Subject Link logo"></img>
       <h1>Your Links</h1>
-      <span>✨ Paste your link here ✨</span>
+      <span>✨Paste the URL to be shortened✨</span>
     </div>
 
     <div className="area-input">
