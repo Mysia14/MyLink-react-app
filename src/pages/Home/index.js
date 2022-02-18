@@ -7,10 +7,15 @@ import LinkItem from "../../components/LinkItem";
 
 
 export default function Home(){
-  const[link, setLink] = useState("")
+
+  const[link, setLink] = useState("");
+
+  const [showModal, setShowModal] = useState(false);  //para controlar o aparecimento do modal - boolean////o seShowModal é para trocar o valor que estará dentro//
+  // o useState(false) nao exibe o modal//
 
   function handleShortLink(){
-    alert ("ta funcionando" + link)
+  
+    setShowModal(true); // para exibir o modal//
 
   }
     return (
@@ -27,10 +32,19 @@ export default function Home(){
         <FiLink size={24} color="#FFF" />
         <input placeholder="Paste your link here ..." value={link} onChange={(e) => setLink(e.target.value)}/>
     </div>  
+
     <button onClick={handleShortLink}> Short URL</button>
+
     </div>
+
     <Menu/>
-    <LinkItem/>
+
+    {showModal && (<LinkItem/>)} 
+
     </div>
   )
   }
+  // {showModal && (<LinkItem/>)}  = o showModal acessa o valor true or false.
+  //                               =  O <Linkitem/> é o que queremos renderizar 
+  // Entao se o showModal for true ele vai renderizar o componente(modal). 
+  //Se for falso nao vai renderizar(exibir) o modal na tela.                         

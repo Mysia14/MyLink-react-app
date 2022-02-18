@@ -7,8 +7,20 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
+    animation: slideY 1.5s;
 
 }
+
+/*Animacao slide para o maodal-containter*/
+@keyframes slideY{
+    from{
+        transform: translateY(90px);/* eixo vertical, comeca 90px pra baixo*/
+    }
+    to{
+        transform:translateY(0) ;
+    }
+}
+
 .modal-header{
     display: flex;
     align-items: center;
