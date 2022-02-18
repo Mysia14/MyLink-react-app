@@ -5,7 +5,7 @@ export default function LinkItem(){
     return (
     <div className="modal-container">
 
-       <div className=" modal-header" >
+       <div className="modal-header" >
            <h2>Shortened Link</h2>
            <button>
                <FiX size={28} color="black"/>
